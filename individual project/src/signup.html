@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="signup_title">Signup</h1>
+    <form class="signup_form" action="process-signup.php" method="post" novalidate>
+        <div class="data">
+            <label for="name">Name</label>
+            <input type="name" id="name" name="name">
+        </div>
+        
+        <div class="data">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="data">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <div class="data">
+            <label for="password_confirmation">Repeat password</label>
+            <input type="password" id="password_confirmation" 
+            name="password_confirmation">
+        </div>
+
+        <button>Sign up</button>
+    </form>
+</body>
+</html>
