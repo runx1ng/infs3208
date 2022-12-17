@@ -1,0 +1,285 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* index */
+.index_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  border-radius: 98px;
+}
+
+.img_container{
+    /* display: inline-block;
+    justify-content: center;
+    height: 800px;
+    align-items: center; */
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: bold;
+    height: 800px;
+    color: #ffffff;
+}
+
+.intro_div{
+  background-color: #5643CC;
+}
+
+/* login */
+.login_title{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.invalid{
+  text-align: center;
+  display: block;
+  color: red;
+}
+
+.signup_title{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.img_border{
+  font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 1rem;
+  border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+
+.login_form{
+    /* width: 410px; */
+    padding: 30px;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); */
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.signup_form{
+  /* width: 410px; */
+  padding: 30px;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); */
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.login_form label{
+    font-size: 18px;
+}
+
+.signup_form label{
+  font-size: 18px;
+}
+
+.login_form button {
+  background-image: linear-gradient(-180deg, #89ca25, rgb(168 226 30 / 75%));
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  height: 44px;
+  padding: 0 20px;
+  width: 100%;
+  border: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.signup_form button {
+  background-image: linear-gradient(-180deg, #89ca25, rgb(168 226 30 / 75%));
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  height: 44px;
+  padding: 0 20px;
+  width: 100%;
+  border: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.login_form button:hover {
+  background: rgb(135, 209, 23);
+}
+
+.signup_form button:hover{
+  background: rgb(135, 209, 23);
+}
+
+.data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+
+/* sign up*/
+.signup{
+    padding: 7px;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #3498db;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
+
+/* load image page*/
+.back {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.back:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.back:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.back:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.back a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #B9CC43;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu h1{
+    display: inline-block;
+    padding-left: 750px;
+}
+
+.login_btn, .signup_btn{
+    float: right;
+    margin: 10px;
+}
+
+
+
+.login_btn, .signup_btn {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+}
+
+.login_btn, .signup_btn {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+    .login_btn, .signup_btn {
+    padding: 0 2.6rem;
+  }
+}
+
+/* load-image */
+
+.comments, .comment{
+  padding-left: 15px;
+}
+
+.comment_form {
+  padding-left: 15px;
+}
+
+.comment_form input{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+   
+.comment_btn {
+  background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comment_btn:hover {
+  background-position: right center;
+  color: #fff;
+}
